@@ -36,7 +36,7 @@ public class Ex1DeterminismTest {
         
     }
     
-    @Test(timeout = 2000)
+    @Test
     public void testIsActionDeterministicFalse_actions() {
         assertFalse("TS has an indeterministic state", sut.isActionDeterministic(makeBranchingTs(5, 3)) );
         assertFalse("TS has an indeterministic state", sut.isActionDeterministic(makeBranchingTs(5, 2)) );

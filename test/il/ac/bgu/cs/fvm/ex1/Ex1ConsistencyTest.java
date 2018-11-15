@@ -1,5 +1,6 @@
 package il.ac.bgu.cs.fvm.ex1;
 
+import static com.sun.xml.internal.ws.dump.LoggingDumpTube.Position.Before;
 import static il.ac.bgu.cs.fvm.TSTestUtils.makeLinearTs;
 import static org.junit.Assert.fail;
 

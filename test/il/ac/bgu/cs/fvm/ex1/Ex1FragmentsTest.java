@@ -57,7 +57,8 @@ public class Ex1FragmentsTest {
         sut.isExecutionFragment(makeLinearTs(5), AlternatingSequence.of(1, "a1000", 3, "a3", 4, "a4", 5));
     }
 
-    @Test(timeout = 2000)
+//    @Test(timeout = 2000)
+    @Test
     public void testExecutionTrue() {
         assertTrue(sut.isExecution(makeLinearTs(4), AlternatingSequence.of(1, "a1", 2, "a2", 3, "a3", 4)));
         assertTrue(sut.isExecution(makeBranchingTs(5, 2), AlternatingSequence.of("s1", "a1", "s2", "a2", "s3", "a3", "s4", "a4", "s5")));
